@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blueprint Developer Test</h1>
+        </div>
+    </header>
+    <main>
+        <section class="random-sort">
+            <div class="container">
+                <div class="question">
+                    <div class="question-text">
+                        <p>Randomize the order of the following number set: "22, 14, 3, 4, 37, 6, 7, 81, 9, 10"</p>
+                    </div>
+                    <button class="calculate" id="sort-button">Answer</button>
+                </div>
+                <div id="random-sort-answer" class="answer">
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe frameborder="0" src="https://repl.it/@carenelizabeth/RandomizeNumberSet?lite=true"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="find-mean">
+            <div class="container">
+                <div class="question">
+                    <div class="question-text">
+                        <p>Find the mean of the following number set: "22, 14, 3, 4, 37, 6, 7, 81, 9, 10"</p>
+                    </div>
+                    <button class="calculate" id="mean-button">Answer</button>
+                </div>
+                <div id="find-mean-answer" class="answer">
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe frameborder="0" src="https://repl.it/@carenelizabeth/GetMean?lite=true"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="populate-table">
+            <div class="container">
+                <div class="question">
+                    <div class="question-text">
+                        <p>Fetch and parse json data  to produce a table:</p>
+                    </div>
+                    <button class="calculate" id="table-button">Answer</button>
+                </div>
+                <div class="answer">
+                    <table id="api-data"></table>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe frameborder="0" src="https://repl.it/@carenelizabeth/Fetch-and-Parse-Data?lite=true"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>    
+</body>
+</html>
